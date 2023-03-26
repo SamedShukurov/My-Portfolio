@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  list-style: none;
+  text-decoration: none;
+  color: #f0e3ca;
+}
+body {
+  background-color: #21201d;
+}
+/*! Header  */
+header {
+  height: 80px;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > div:nth-child(2) {
+  width: 45%;
+  margin: 0 auto;
+}
+header > div:nth-child(1) {
+  width: 50%;
+  margin: 0 auto;
+}
+header > div:nth-child(1) > img {
+  width: 150px;
+  height: 45px;
+}
+
+header > div:nth-child(2) > ul {
+  display: flex;
+  gap: 50px;
+}
+header > div:nth-child(2) > ul > li > a {
+  transition: 500ms;
+  font-size: 20px;
+}
+header > div:nth-child(2) > ul > li > a:hover {
+  margin: 0 10px;
+  color: #ff8303;
+}
+header > div:nth-child(2) > ul > li:nth-child(1) > a {
+  color: #ff8303;
+}
+
+/*! Welcome */
+.welcome {  
+  width: 85%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Hi text */
+.hiText > h4 {
+  color: #ff8303;
+  font-size: 64px;
+}
+.hiText > h5 {
+  color: #f0e3ca;
+  font-size: 40px;
+  margin: 20px 0;
+}
+.hiText > p {
+  color: #f0e3ca;
+  font-size: 20px;
+  width: 70%;
+}
+/* Illustrations */
+.illustrations > img:nth-child(1) {
+  height: 600px;
+}
+.illustrations > img:nth-child(2) {
+  position: absolute;
+  left: 55%;
+  top: 30%;
+}
+/* About */
+.about {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
+/*! My Skills */
+.skills {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top:100px ;
+}
+.skills > h3 {
+  color:#FF8303;
+}

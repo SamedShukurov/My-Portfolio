@@ -9,7 +9,7 @@
   color: #f0e3ca;
 }
 body {
-  background-color: #21201d;
+  background-color: #1f1e1b;
 }
 /*! Header  */
 header {
@@ -50,7 +50,7 @@ header > div:nth-child(2) > ul > li:nth-child(1) > a {
 }
 
 /*! Welcome */
-.welcome {  
+.welcome {
   width: 85%;
   margin: 100px auto;
   display: flex;
@@ -96,8 +96,149 @@ header > div:nth-child(2) > ul > li:nth-child(1) > a {
   width: 85%;
   margin: 0 auto;
   text-align: center;
-  padding-top:100px ;
+  padding-top: 100px;
 }
 .skills > h3 {
+  color: #ff8303;
+  font-size: 32px;
+}
+.skill {
+  width: 200px;
+  height: 300px;
+  padding: 50px 0;
+  background-color: #21201d;
+  border-radius: 10px;
+}
+.skills > div {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+.skill > h5 {
+  font-size: 32px;
+  padding-top: 30px;
+}
+/* html */
+.skill:nth-child(1):hover > img {
+  content: url("../svg/icon\ html\ --\ hover.svg");
+}
+/* css */
+.skill:nth-child(2):hover > img {
+  content: url("../svg/icon\ css\ -\ hover.svg");
+}
+/* js */
+.skill:nth-child(3):hover > img {
+  content: url("../svg/icon\ js\ --\ hover.svg");
+}
+/* scss */
+.skill:nth-child(4):hover > img {
+  content: url("../svg/icon\ scss\ --hover.svg");
+}
+/* git */
+.skill:nth-child(5):hover > img {
+  content: url("../svg/icon\ git\ --\ hover.svg");
+}
+
+/*! My Works */
+.works{
+  margin-bottom: 50px;
+}
+.works > h3{
+  font-size: 32px;
   color:#FF8303;
+  text-align: center;
+  padding:50px 0px;
+}
+.contents{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.content{
+  width: 320px;
+  height: 350px;
+  background-image:url("../svg/card_portfolio.svg");
+}
+.content:hover > .content_hover{
+  visibility:visible;
+}
+.content_hover{
+  opacity: 0.9;
+  width: 320px;
+  height: 350px;
+  text-align: center;
+  padding: 40px 50px;
+  margin-bottom:50px;
+  background-color: #21201D;
+  visibility:hidden;
+  transition: 0.1s;
+}
+.content_hover > h3{
+  color:#FF8303;
+  font-size: 32px;
+  text-align: center;
+}
+.content_hover > h4{
+  padding: 20px 0;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+.content_hover > #hr{
+  width: 200px;
+  height: 1px;
+  background-color:#A35709;
+  margin: 0 10px;
+}
+.content_hover > p{
+  width: 218px;
+  padding:25px 0 ;
+  text-align: start;
+}
+.content_hover > button{
+  width: 110px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #32312E;
+  cursor: pointer;
+}
+.content_hover > button:hover{
+  background-color: #171614;
+  color:#ff8303;  
+  transition: 0.2s;
+}
+
+/*! Footer */
+
+footer{
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+footer > div:nth-child(1) > img{
+  width: 150px;
+  height: 44px;
+}
+footer > div:nth-child(1) > p{
+  width: 213px;
+  height: 46px;
+  font-size: 20px;
+}
+
+footer > .contacts >h3{
+  font-size: 32px;
+  color:#FF8303;
+}
+.contacts {
+  width: 384px;
+}
+.contact > div:nth-child(1){
+  display: flex;
+}
+.contact > div:nth-child(1)> ul:nth-child(1){
+  display: flex;
 }
